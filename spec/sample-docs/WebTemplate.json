@@ -1,0 +1,155 @@
+{
+	 "_id": "1bb58cfa-063d-4f5c-be5d-b90cfb64d1d6",
+	 "docType": "webTemplate",
+	 "partitionKey": "Same as the _id",
+	 "merchantID": "618bd6b3-b6b0-4984-b615-a8643c0f19c2",
+	 "adminRights": [
+		{
+			 "merchantID": "474b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Åre",
+			 "roles": "admin"
+		},
+		{
+			 "merchantID": "574b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "Turistbutiken i Malmö",
+			 "roles": "read"
+		},
+		{
+			 "merchantID": "674b917c-9971-4ec4-89b5-0ab80f2607ae",
+			 "merchantName": "My company A",
+			 "roles": "write"
+		}
+	],
+	 "templateName": "Starstruck Coffee Voucher Shop",
+	 "templateDescription": "Here you can select your SPA gift-cards and send them to friends and family.",
+	 "seoMetaTitle": "Some looooong description of the Webshop",
+	 "seoMetaDescription": "Some looooong description of the Webshop",
+	 "logoImageURL": "https://media.vourity.com/logoburger.png",
+	 "mainImageURL": "https://media.vourity.com/bigburger.png",
+	 "footerImageURL": "https://media.vourity.com/bigburger.png",
+	 "backgroundColor": "#000000",
+	 "headerBackgroundColor": "#000000",
+	 "footerBackgroundColor": "#000000",
+	 "siteTitle": {
+		 "textColor": "#FFFFFF",
+		 "textSize": 20,
+		 "textStyle": "bold",
+		 "backgroundColor": "#393E46",
+		 "texts": {
+			 "sv-SE": {
+				 "text": "html encode ??? This is the text in some language"
+			},
+			 "en-US": {
+				 "text": "This is the text in some language"
+			}
+		}
+	},
+	 "siteDescription": {
+		 "textColor": "#FFFFFF",
+		 "textSize": 20,
+		 "textStyle": "bold",
+		 "backgroundColor": "#393E46",
+		 "texts": {
+			 "sv-SE": {
+				 "text": "html encode ??? This is the text in some language"
+			},
+			 "en-US": {
+				 "text": "This is the text in some language"
+			}
+		}
+	},
+	 "contact": {
+		 "contactCompany": "Relaxing SPA",
+		 "contactPhone": "+46213123213",
+		 "contactEmail": "+sales@company.com",
+		 "contactStreet1": "Megastreet 5",
+		 "contactStreet2": "PO Box 25",
+		 "contactZipCode": "SE-12333",
+		 "contactCity": "Stockholm",
+		 "contactState": "The big one",
+		 "contactCountry": "Sweden"
+	},
+	 "texts": {
+		 "mainLabel": {
+			 "textColor": "#86AD33",
+			 "textSize": 20,
+			 "textStyle": "bold",
+			 "backgroundColor": "#393E46",
+			 "sv-SE": {
+				 "text": "html encode ??? This is the text in some language"
+			},
+			 "en-US": {
+				 "text": "This is the text in some language"
+			}
+		},
+		 "text1": {
+			 "textColor": "#FFFFFF",
+			 "textSize": 20,
+			 "textStyle": "normal",
+			 "backgroundColor": "#393E46",
+			 "sv-SE": {
+				 "text": "This is the text in some language"
+			},
+			 "en-US": {
+				 "text": "This is the text in some language"
+			}
+		},
+		 "text2": {
+			 "textColor": "#FFFFFF",
+			 "textSize": 20,
+			 "textStyle": "italic",
+			 "backgroundColor": "#393E46",
+			 "sv-SE": {
+				 "text": "This is the text in some language"
+			},
+			 "en-US": {
+				 "text": "This is the text in some language"
+			}
+		}
+	},
+	 "languageSelector": {
+		 "defaultLanguage": "sv-SE",
+		 "sv-SE": {
+			 "isEnabled": true
+		},
+		 "en-US": {
+			 "isEnabled": true
+		}
+	},
+	 "footerLinks": [
+		{
+			 "linkID": 1,
+			 "linkURL": "https://vourity.com",
+			 "linkLabel": {
+				 "textColor": "#FFFFFF",
+				 "textSize": 20,
+				 "textStyle": "bold",
+				 "backgroundColor": "#393E46",
+				 "sv-SE": {
+					 "text": "Swish"
+				},
+				 "en-US": {
+					 "text": "Swish"
+				}
+			}
+		},
+		{
+			 "linkID": 2,
+			 "linkURL": "https://vourity.com",
+			 "linkLabel": {
+				 "textColor": "#FFFFFF",
+				 "textSize": 20,
+				 "textStyle": "bold",
+				 "backgroundColor": "#393E46",
+				 "sv-SE": {
+					 "text": "Privacy policy"
+				},
+				 "en-US": {
+					 "text": "Privacy policy"
+				}
+			}
+		}
+	],
+	 "createdDate": "2020-04-14T14:05:36Z",
+	 "updatedDate": "2020-04-14T15:18:12Z"
+}
