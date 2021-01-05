@@ -50,14 +50,13 @@ describe('Get Web Template', () => {
                 'Authorization': authToken
             }
         });
-        const result = await request.get(`${helpers.API_URL}/api/v1/web-templates/${sampleWebTemplates._id}`, {
+        const result = await request.get(`${helpers.API_URL}/api/v1/merchants/${merchantID}/web-templates`, {
             json: true,
             headers: {
                 'Authorization': authToken
             }
         });
         expect(result).not.to.be.null;
-        expect(result._id).to.be.equal(sampleWebTemplates._id);
 
         await request.delete(`${helpers.API_URL}/api/v1/web-templates/${sampleWebTemplates._id}`, {
             json: true,
@@ -91,7 +90,7 @@ describe('Get Web Template', () => {
     it('should return error when id is not in uuid format', async () => {
        
         try {
-            await request.get(`${helpers.API_URL}/api/v1/web-templates/123`, {
+            await request.get(`${helpers.API_URL}/api/v1/merchants/123/web-templates`, {
                 json: true,
                 headers: {
                     'Authorization': authToken
