@@ -14,7 +14,7 @@ module.exports = async (context, req) => {
                     401
                 )
             );
-            return Promise.reject();
+            //return Promise.reject();
         }
         var token = utils.decodeToken(req.headers.authorization);
         const user = await request.get(`${process.env.USER_API_URL}/api/v1/users/${token._id}`, { //Get User
